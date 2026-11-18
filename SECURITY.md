@@ -10,4 +10,4 @@ on this repository. Do not post them in public.
 - Download only from this repository's Releases page.
 - Compare the file's SHA-256 hash with the one in the release notes
   (PowerShell: `Get-FileHash <file>`).
-- Lumen will never ask for your Hytale password or any other account details.
+- Hylight will never ask for your Hytale password or any other account details.

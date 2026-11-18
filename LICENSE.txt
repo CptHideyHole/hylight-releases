@@ -1,0 +1,28 @@
+Hylight licence (binaries)
+Version 1, 2026.
+
+Hylight is made by CptHideyHole. This licence covers the Hylight files published at
+https://github.com/CptHideyHole/hylight-releases: HylightSetup.exe and everything it installs.
+The source code is not published and is not covered by this licence.
+
+1. You may use Hylight for free, for any purpose, on as many computers as you like.
+
+2. You may share Hylight with others only as the unchanged files from the official release page, or simply by
+   sharing a link to that page. You may not change, patch, repackage or bundle Hylight's files and pass them on,
+   and you may not sell Hylight or charge for access to it.
+
+3. You may not reverse-engineer Hylight's files to make your own version of it, except where the law where you
+   live allows this regardless of what a licence says.
+
+4. Hylight is not made by, endorsed by or connected with Hypixel Studios. Hytale is their trademark. Hylight
+   changes only how the game draws its picture on your own computer. It adds one file to the game's folder and
+   changes none of the game's own files.
+
+5. Hylight is given as it is, with no warranty of any kind. Use it at your own risk. To the fullest extent the law
+   allows, CptHideyHole is not responsible for any damage, data loss, crashes, bans or other problems that come
+   from using Hylight.
+
+6. Hylight sends nothing about you anywhere. It only downloads its own updates from its official release page and,
+   on servers that run Farlight, the far terrain from that server.
+
+7. These terms may change with a new version of Hylight. The version that came with your copy applies to it.

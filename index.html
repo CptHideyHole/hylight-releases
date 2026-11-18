@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Hylight for Hytale</title>
+<meta name="description" content="Hylight: an optional graphics add-on for the Hytale client on Windows. Official download.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700&family=Inter:wght@400;500;600&display=swap">
+<style>
+/* Layout: a dusk-horizon band (the subject: light reaching the far land) over a single readable column. */
+:root{
+  --sky-top:#f3d9b8; --sky-low:#f7ecdf; --ridge-far:#c9b6a3; --ridge-near:#a88f7a;
+  --bg:#fbf8f3; --fg:#22201d; --mute:#69625a; --line:#e6ddd1; --accent:#b4531f; --accent-fg:#fff; --card:#f4eee6;
+  --head:"Sora",system-ui,sans-serif; --body:"Inter",system-ui,sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root{
+  --sky-top:#2b2236; --sky-low:#4a3340; --ridge-far:#3a2e3a; --ridge-near:#261f29;
+  --bg:#17141a; --fg:#ede6dd; --mute:#a69c92; --line:#2f2a33; --accent:#ec8a4a; --accent-fg:#1b1410; --card:#201c24;
+  color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 var(--body)}
+a{color:var(--accent)}
+a:focus-visible,.btn:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.wrap{max-width:44rem;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+header{background:linear-gradient(var(--sky-top),var(--sky-low));position:relative;overflow:hidden}
+header .wrap{padding-block:56px 120px;position:relative;z-index:1}
+header svg{position:absolute;left:0;right:0;bottom:-1px;width:100%;height:110px;display:block}
+.eyebrow{font:600 .75rem/1 var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--mute);margin:0 0 14px}
+h1{font:700 clamp(2.4rem,7vw,3.4rem)/1.05 var(--head);margin:0 0 14px;letter-spacing:-.02em}
+.lede{font-size:1.15rem;margin:0 0 26px;max-width:34rem;text-wrap:pretty}
+.btn{display:inline-flex;align-items:center;gap:10px;background:var(--accent);color:var(--accent-fg);text-decoration:none;font:600 1.05rem/1 var(--body);padding:15px 22px;border-radius:8px}
+.btn:hover{filter:brightness(1.06)}
+.meta{margin:14px 0 0;color:var(--mute);font-size:.92rem}
+main .wrap{display:grid;gap:44px;padding-block:28px 56px}
+h2{font:700 1.35rem/1.25 var(--head);margin:0 0 12px;text-wrap:balance}
+p{margin:0 0 12px}
+ul,ol{margin:0;padding-left:1.25rem;display:grid;gap:8px}
+.gets{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(12rem,1fr));gap:14px}
+.gets li{background:var(--card);border-radius:8px;padding:14px 16px}
+.gets b{display:block;font-family:var(--head);font-weight:500}
+.note{border-left:3px solid var(--accent);padding:10px 14px;background:var(--card);border-radius:0 8px 8px 0}
+kbd{font:500 .9em var(--body);border:1px solid var(--line);border-radius:4px;padding:1px 6px;background:var(--bg)}
+footer{border-top:1px solid var(--line);color:var(--mute);font-size:.88rem}
+footer .wrap{padding-block:22px 40px;display:grid;gap:6px}
+@media (prefers-reduced-motion:no-preference){.btn{transition:filter .15s}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <p class="eyebrow">For Hytale on Windows</p>
+    <h1>Hylight</h1>
+    <p class="lede">Softer shadows, warmer light, better water and clouds. On servers that run Farlight, land all the way to the horizon.</p>
+    <a class="btn" href="https://github.com/CptHideyHole/hylight-releases/releases">Download Hylight</a>
+    <p class="meta">Free · Windows 10 and 11 · Test builds are marked “Pre-release”</p>
+  </div>
+  <svg viewBox="0 0 1200 110" preserveAspectRatio="none" aria-hidden="true">
+    <path fill="var(--ridge-far)" d="M0 70 L90 52 L170 62 L260 38 L340 55 L430 44 L520 60 L610 35 L700 50 L790 41 L880 58 L970 40 L1060 54 L1140 46 L1200 52 L1200 110 L0 110 Z"/>
+    <path fill="var(--ridge-near)" d="M0 92 L120 78 L230 88 L350 70 L470 86 L590 74 L720 90 L840 76 L960 88 L1080 80 L1200 86 L1200 110 L0 110 Z"/>
+    <path fill="var(--bg)" d="M0 104 L1200 104 L1200 110 L0 110 Z"/>
+  </svg>
+</header>
+
+<main>
+  <div class="wrap">
+    <section>
+      <h2>What you get</h2>
+      <ul class="gets">
+        <li><b>Light and shadow</b>Soft sun shadows, glowing torches and lamps, a darker night.</li>
+        <li><b>Water and sky</b>Reflections, light through clouds, weather you can see coming.</li>
+        <li><b>The far horizon</b>On Farlight servers, distant land drawn far past the normal view.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Installing</h2>
+      <ol>
+        <li>Download <b>HylightSetup.exe</b> from the newest release.</li>
+        <li>Run it. Windows may show <b>“Windows protected your PC”</b>, because Hylight is new and not yet signed. Click <b>More info</b>, then <b>Run anyway</b>.</li>
+        <li>Click <b>Install Hylight</b>. Close Hytale first if it’s open.</li>
+        <li>Start Hytale the way you always do. In the game, press <kbd>Shift</kbd> + <kbd>F8</kbd> for Hylight’s settings.</li>
+      </ol>
+      <p class="note" style="margin-top:14px">Hylight keeps itself working after Hytale updates and updates itself, so you only do this once. You can turn both off in the installer and in the Hylight window.</p>
+    </section>
+
+    <section>
+      <h2>Removing it</h2>
+      <p>Open <b>Hylight</b> from the Start menu and choose <b>Uninstall Hylight</b>, or find it in Windows Settings under <b>Apps</b>. Hytale goes back to how it was. Your Hylight settings are kept in case you come back.</p>
+    </section>
+
+    <section>
+      <h2>Privacy</h2>
+      <p>Hylight sends nothing about you anywhere. It only downloads its own updates from this page’s release list, and on Farlight servers it receives the far terrain from that server. If you report a problem, you create the report yourself and choose whether to send it.</p>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Only download Hylight from <a href="https://github.com/CptHideyHole/hylight-releases/releases">its official release page</a>. Each release lists the SHA-256 of every file.</span>
+    <span>Hylight is a fan-made project, not made by or connected with Hypixel Studios. <a href="https://github.com/CptHideyHole/hylight-releases/blob/main/LICENSE.txt">Licence</a> · <a href="https://github.com/CptHideyHole/hylight-releases/blob/main/SECURITY.md">Report a security problem</a></span>
+  </div>
+</footer>
+</body>
+</html>
