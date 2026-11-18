@@ -1,0 +1,33 @@
+{
+  "format": 1,
+  "serial": 1,
+  "issued": "2026-11-18T01:46:25Z",
+  "kill": {
+    "all": false,
+    "hylight_versions": [],
+    "game_builds": [],
+    "message": ""
+  },
+  "latest": "0.1.0-test.1",
+  "versions": {
+    "0.1.0-test.1": {
+      "files": {
+        "HylightSetup.exe": {
+          "url": "https://github.com/CptHideyHole/hylight-releases/releases/download/v0.1.0-test.1/HylightSetup.exe",
+          "sha256": "012ad64ed8fa14c37733894fc9f968cacff37a460ea6de2658ab595a374ec71f",
+          "size": 1313887
+        }
+      },
+      "compatible": [
+        {
+          "patchline": "release",
+          "build": "39",
+          "exe_sha256": "09d4bd2d28b69247e3a4b41d472099594c7e127c05b9b84470e0082fd3a7a773",
+          "shader_digest": "1e04511c7923f8f3"
+        }
+      ],
+      "allow_same_shaders": true,
+      "notes": "First test build of Hylight, for test-server rounds. Windows will warn that it is from an unknown publisher (it isn't signed yet): click More info, then Run anyway. Installing over Lumen moves your settings across and removes Lumen. Far terrain needs a server running Farlight; no settings to type in.\n\nHylightSetup.exe SHA-256: 012ad64ed8fa14c37733894fc9f968cacff37a460ea6de2658ab595a374ec71f"
+    }
+  }
+}
